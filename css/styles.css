@@ -245,8 +245,7 @@ body {
   background-color: var(--button);
 }
 
-.features__flex,
-.offer__flex {
+.flex {
   display: flex;
 }
 
@@ -255,8 +254,7 @@ body {
   margin-right: 30px;
 }
 
-.features__visually-hidden ,
-.buttons__visually-hidden{
+.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -269,9 +267,7 @@ body {
   margin: -1px;
 }
 
-.offer__title,
-.team__title,
-.companies__title {
+.title {
   margin-bottom: 50px;
   color: var(--title);
   font-weight: 700;
@@ -367,7 +363,6 @@ body {
 }
 
 .team__social-link {
-  display: flex;
   margin: 0;
   /* outline: 1px solid teal; */
   gap: 10px;
@@ -495,7 +490,6 @@ body {
 
 .buttons__list {
   margin-bottom: 50px;
-  display: flex;
   justify-content: center;
 }
 
@@ -523,7 +517,6 @@ body {
 }
 
 .product {
-  display: flex;
   flex-wrap: wrap;
 }
 

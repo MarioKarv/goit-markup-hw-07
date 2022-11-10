@@ -1,0 +1,27 @@
+.companies__list {
+    justify-content: space-between;
+}
+
+.companies__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+    color: var(--icons);
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    transition: color var(--transition-duration) var(--transition-timing-function),
+        border-color var(--transition-duration) var(--transition-timing-function);
+    /* outline: 2px solid black; */
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+}
+
+.companies__icon {
+    fill: currentColor;
+    /* outline: 1px solid teal; */
+}
